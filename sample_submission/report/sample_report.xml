@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="report_sample_s" model="ir.actions.report">
+        <field name="name">Sample Report</field>
+        <field name="model">home.page</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">sample_submission.report_sample</field>
+        <field name="report_file">sample_submission.report_sample</field>
+        <field name="binding_model_id" ref="model_home_page"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <record id="report_sample_xls" model="ir.actions.report">
+        <field name="name">Sample Report Excel</field>
+        <field name="model">home.page</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">sample_submission.report_sample_xls</field>
+        <field name="report_file">sample_submission.report_sample_xls</field>
+        <field name="binding_model_id" ref="model_home_page"/>
+        <field name="binding_type">report</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+sample_submission.access_home_page,access_home_page,sample_submission.model_home_page,base.group_user,1,1,1,1
+sample_submission.access_field,access_field,sample_submission.model_field,base.group_user,1,1,1,1
